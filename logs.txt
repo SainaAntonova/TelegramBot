@@ -1,0 +1,374 @@
+2024-04-01 17:24:22,615 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:24:23,603 - aiogram.event - INFO - Update id=298474676 is handled. Duration 988 ms by bot id=6920243355
+2024-04-01 17:24:51,921 - root - INFO - input: Пушкин Александр Сергеевич, Converted: Pushkin Aleksandr Sergeevich
+2024-04-01 17:24:52,558 - aiogram.event - INFO - Update id=298474677 is handled. Duration 637 ms by bot id=6920243355
+2024-04-01 17:25:32,608 - root - INFO - input: Зайцев Никита Жоржевич, Converted: Zajtsev Nikita Zhorzhevich
+2024-04-01 17:25:33,628 - aiogram.event - INFO - Update id=298474678 is handled. Duration 1020 ms by bot id=6920243355
+2024-04-01 17:39:17,323 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:39:18,200 - aiogram.event - INFO - Update id=298474679 is handled. Duration 878 ms by bot id=6920243355
+2024-04-01 17:40:35,440 - root - INFO - input: Зчюя Ъщ Шхы, Converted: Zchjuja 'sch Shhy
+2024-04-01 17:40:36,503 - aiogram.event - INFO - Update id=298474680 is handled. Duration 1063 ms by bot id=6920243355
+2024-04-01 17:44:11,159 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:44:11,979 - aiogram.event - INFO - Update id=298474681 is handled. Duration 820 ms by bot id=6920243355
+2024-04-01 17:44:18,456 - root - INFO - input: Зчюя Ъщ Шхы, Converted: Zchjuja 'sch Shhy
+2024-04-01 17:44:18,790 - aiogram.event - INFO - Update id=298474682 is handled. Duration 335 ms by bot id=6920243355
+2024-04-01 17:45:07,224 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 17:45:08,084 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 17:45:14,164 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:45:14,919 - aiogram.event - INFO - Update id=298474683 is handled. Duration 754 ms by bot id=6920243355
+2024-04-01 17:45:22,819 - aiogram.event - INFO - Update id=298474684 is not handled. Duration 0 ms by bot id=6920243355
+2024-04-01 17:45:22,819 - aiogram.event - ERROR - Cause exception while process update id=298474684 by bot id=6920243355
+AttributeError: 'function' object has no attribute 'from_user'
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 24, in message
+    user_id = message.from_user.id
+AttributeError: 'function' object has no attribute 'from_user'
+2024-04-01 17:45:50,982 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:45:51,803 - aiogram.event - INFO - Update id=298474685 is handled. Duration 821 ms by bot id=6920243355
+2024-04-01 17:45:56,837 - aiogram.event - INFO - Update id=298474686 is not handled. Duration 0 ms by bot id=6920243355
+2024-04-01 17:45:56,837 - aiogram.event - ERROR - Cause exception while process update id=298474686 by bot id=6920243355
+AttributeError: 'function' object has no attribute 'from_user'
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 24, in message
+    user_id = msg.from_user.id
+AttributeError: 'function' object has no attribute 'from_user'
+2024-04-01 17:47:45,645 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 17:47:46,421 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 17:47:49,301 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:47:50,112 - aiogram.event - INFO - Update id=298474687 is handled. Duration 810 ms by bot id=6920243355
+2024-04-01 17:47:55,880 - aiogram.event - INFO - Update id=298474688 is not handled. Duration 1 ms by bot id=6920243355
+2024-04-01 17:47:55,880 - aiogram.event - ERROR - Cause exception while process update id=298474688 by bot id=6920243355
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 26, in message
+    logging.info(f"input: {full_name}, Converted: {name_translit}")
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+2024-04-01 17:48:23,861 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 17:48:24,564 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 17:48:40,946 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:48:42,047 - aiogram.event - INFO - Update id=298474689 is handled. Duration 1101 ms by bot id=6920243355
+2024-04-01 17:48:47,237 - aiogram.event - INFO - Update id=298474690 is not handled. Duration 0 ms by bot id=6920243355
+2024-04-01 17:48:47,238 - aiogram.event - ERROR - Cause exception while process update id=298474690 by bot id=6920243355
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 26, in message
+    logging.info(f"input: {full_name}, Converted: {name_translit}")
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+2024-04-01 17:50:27,677 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:50:28,325 - aiogram.event - INFO - Update id=298474691 is handled. Duration 649 ms by bot id=6920243355
+2024-04-01 17:50:33,138 - aiogram.event - INFO - Update id=298474692 is not handled. Duration 0 ms by bot id=6920243355
+2024-04-01 17:50:33,138 - aiogram.event - ERROR - Cause exception while process update id=298474692 by bot id=6920243355
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 26, in message
+    russian = ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К',
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+2024-04-01 17:50:41,371 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:50:41,738 - aiogram.event - INFO - Update id=298474693 is handled. Duration 367 ms by bot id=6920243355
+2024-04-01 17:50:46,253 - aiogram.event - INFO - Update id=298474694 is not handled. Duration 0 ms by bot id=6920243355
+2024-04-01 17:50:46,253 - aiogram.event - ERROR - Cause exception while process update id=298474694 by bot id=6920243355
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 26, in message
+    russian = ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К',
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+2024-04-01 17:52:59,336 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:53:00,195 - aiogram.event - INFO - Update id=298474695 is handled. Duration 869 ms by bot id=6920243355
+2024-04-01 17:53:06,628 - aiogram.event - INFO - Update id=298474696 is not handled. Duration 0 ms by bot id=6920243355
+2024-04-01 17:53:06,629 - aiogram.event - ERROR - Cause exception while process update id=298474696 by bot id=6920243355
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+Traceback (most recent call last):
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 309, in _process_update
+    response = await self.feed_update(bot, update, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 158, in feed_update
+    response = await self.update.wrap_outer_middleware(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/error.py", line 25, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/middlewares/user_context.py", line 27, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/fsm/middleware.py", line 41, in __call__
+    return await handler(event, data)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/dispatcher.py", line 276, in _listen_update
+    return await self.propagate_event(update_type=update_type, event=event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 128, in propagate_event
+    return await observer.wrap_outer_middleware(_wrapped, event=event, data=kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 123, in _wrapped
+    return await self._propagate_event(
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/router.py", line 148, in _propagate_event
+    response = await observer.trigger(event, **kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/telegram.py", line 121, in trigger
+    return await wrapped_inner(event, kwargs)
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/venv/lib/python3.10/site-packages/aiogram/dispatcher/event/handler.py", line 43, in call
+    return await wrapped()
+  File "/Users/mossyhead/ds_bootcamp/TelegramBot/bot.py", line 26, in message
+    russian = ['А', 'Б', 'В', 'Г', 'Д', 'Е', 'Ё', 'Ж', 'З', 'И', 'Й', 'К',
+UnboundLocalError: local variable 'name_translit' referenced before assignment
+2024-04-01 17:54:25,283 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 17:54:26,458 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 17:54:29,409 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:54:30,129 - aiogram.event - INFO - Update id=298474697 is handled. Duration 720 ms by bot id=6920243355
+2024-04-01 17:54:35,566 - root - INFO - input: Зчюя Ъщ Шхы, Converted: Zchiuia IEshch SHkhy
+2024-04-01 17:54:36,018 - aiogram.event - INFO - Update id=298474698 is handled. Duration 452 ms by bot id=6920243355
+2024-04-01 17:56:15,512 - root - INFO - input: ь, Converted: ь
+2024-04-01 17:56:16,307 - aiogram.event - INFO - Update id=298474699 is handled. Duration 796 ms by bot id=6920243355
+2024-04-01 17:57:49,616 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 17:57:50,401 - aiogram.event - INFO - Update id=298474700 is handled. Duration 784 ms by bot id=6920243355
+2024-04-01 17:57:57,807 - root - INFO - input: Zchiuia IEshch SHkhy, Converted: Zchiuia IEshch SHkhy
+2024-04-01 17:57:58,043 - aiogram.event - INFO - Update id=298474701 is handled. Duration 235 ms by bot id=6920243355
+2024-04-01 17:58:24,491 - root - INFO - input: ь, Converted: ь
+2024-04-01 17:58:25,343 - aiogram.event - INFO - Update id=298474702 is handled. Duration 852 ms by bot id=6920243355
+2024-04-01 17:59:13,049 - root - INFO - input: Марьяна, Converted: Marьiana
+2024-04-01 17:59:13,666 - aiogram.event - INFO - Update id=298474703 is handled. Duration 616 ms by bot id=6920243355
+2024-04-01 18:00:38,713 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:00:39,470 - aiogram.event - INFO - Update id=298474704 is handled. Duration 757 ms by bot id=6920243355
+2024-04-01 18:00:46,616 - root - INFO - input: Марьяна, Converted: Marьiana
+2024-04-01 18:00:46,957 - aiogram.event - INFO - Update id=298474705 is handled. Duration 341 ms by bot id=6920243355
+2024-04-01 18:01:14,720 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 18:01:15,490 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 18:01:17,733 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:01:18,580 - aiogram.event - INFO - Update id=298474706 is handled. Duration 847 ms by bot id=6920243355
+2024-04-01 18:01:23,789 - root - INFO - input: Марьяна, Converted: Mariana
+2024-04-01 18:01:24,016 - aiogram.event - INFO - Update id=298474707 is handled. Duration 226 ms by bot id=6920243355
+2024-04-01 18:02:04,913 - root - INFO - input: Зульфия, Converted: Zulfiia
+2024-04-01 18:02:05,616 - aiogram.event - INFO - Update id=298474708 is handled. Duration 702 ms by bot id=6920243355
+2024-04-01 18:08:05,695 - root - INFO - input: ыы, Converted: yy
+2024-04-01 18:08:06,393 - aiogram.event - INFO - Update id=298474709 is handled. Duration 699 ms by bot id=6920243355
+2024-04-01 18:09:58,170 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:09:58,804 - aiogram.event - INFO - Update id=298474710 is handled. Duration 636 ms by bot id=6920243355
+2024-04-01 18:10:06,034 - root - INFO - input: ывоатовыа, Converted: yvoatovya
+2024-04-01 18:10:06,263 - aiogram.event - INFO - Update id=298474711 is handled. Duration 229 ms by bot id=6920243355
+2024-04-01 18:37:55,525 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 18:37:56,433 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 18:37:56,652 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:37:56,652 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:37:57,362 - aiogram.event - INFO - Update id=298474712 is handled. Duration 710 ms by bot id=6920243355
+2024-04-01 18:37:57,375 - aiogram.event - INFO - Update id=298474713 is handled. Duration 722 ms by bot id=6920243355
+2024-04-01 18:38:00,945 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:38:01,181 - aiogram.event - INFO - Update id=298474714 is handled. Duration 236 ms by bot id=6920243355
+2024-04-01 18:38:07,965 - root - INFO - input: ывоатовыа, Converted: yvoatovya
+2024-04-01 18:38:08,676 - aiogram.event - INFO - Update id=298474715 is handled. Duration 711 ms by bot id=6920243355
+2024-04-01 18:38:25,882 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:38:26,529 - aiogram.event - INFO - Update id=298474716 is handled. Duration 647 ms by bot id=6920243355
+2024-04-01 18:38:39,056 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 18:38:39,948 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 18:38:42,689 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:38:43,639 - aiogram.event - INFO - Update id=298474717 is handled. Duration 950 ms by bot id=6920243355
+2024-04-01 18:38:50,186 - root - INFO - input: ывоатовыа, Converted: yvoatovya
+2024-04-01 18:38:50,429 - aiogram.event - INFO - Update id=298474718 is handled. Duration 243 ms by bot id=6920243355
+2024-04-01 18:41:41,438 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 18:41:42,407 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 18:41:42,606 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:41:42,607 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6920243355)
+2024-04-01 18:41:46,829 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:41:46,830 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6920243355)
+2024-04-01 18:41:48,165 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:41:48,166 - aiogram.dispatcher - WARNING - Sleep for 1.410906 seconds and try again... (tryings = 1, bot id = 6920243355)
+2024-04-01 18:41:52,926 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:41:52,927 - aiogram.dispatcher - WARNING - Sleep for 1.139664 seconds and try again... (tryings = 1, bot id = 6920243355)
+2024-04-01 18:41:54,322 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:41:54,323 - aiogram.dispatcher - WARNING - Sleep for 1.913160 seconds and try again... (tryings = 2, bot id = 6920243355)
+2024-04-01 18:41:59,429 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:41:59,430 - aiogram.dispatcher - WARNING - Sleep for 1.612499 seconds and try again... (tryings = 2, bot id = 6920243355)
+2024-04-01 18:42:01,269 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:01,269 - aiogram.dispatcher - WARNING - Sleep for 2.685200 seconds and try again... (tryings = 3, bot id = 6920243355)
+2024-04-01 18:42:07,148 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:07,148 - aiogram.dispatcher - WARNING - Sleep for 2.175201 seconds and try again... (tryings = 3, bot id = 6920243355)
+2024-04-01 18:42:09,661 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:09,662 - aiogram.dispatcher - WARNING - Sleep for 3.379501 seconds and try again... (tryings = 4, bot id = 6920243355)
+2024-04-01 18:42:09,940 - aiogram.dispatcher - INFO - Connection established (tryings = 4, bot id = 6920243355)
+2024-04-01 18:42:09,946 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 18:42:10,742 - aiogram.event - INFO - Update id=298474719 is handled. Duration 797 ms by bot id=6920243355
+2024-04-01 18:42:13,329 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:13,330 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6920243355)
+2024-04-01 18:42:17,570 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:17,572 - aiogram.dispatcher - WARNING - Sleep for 4.376360 seconds and try again... (tryings = 5, bot id = 6920243355)
+2024-04-01 18:42:18,573 - aiogram.dispatcher - INFO - Connection established (tryings = 1, bot id = 6920243355)
+2024-04-01 18:42:18,577 - root - INFO - input: авлотплвоаопл, Converted: avlotplvoaopl
+2024-04-01 18:42:18,877 - aiogram.event - INFO - Update id=298474720 is handled. Duration 301 ms by bot id=6920243355
+2024-04-01 18:42:22,243 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:22,243 - aiogram.dispatcher - WARNING - Sleep for 1.000000 seconds and try again... (tryings = 0, bot id = 6920243355)
+2024-04-01 18:42:26,482 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:26,485 - aiogram.dispatcher - WARNING - Sleep for 5.058216 seconds and try again... (tryings = 6, bot id = 6920243355)
+2024-04-01 18:42:31,737 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:31,737 - aiogram.dispatcher - WARNING - Sleep for 1.304449 seconds and try again... (tryings = 1, bot id = 6920243355)
+2024-04-01 18:42:36,439 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:36,439 - aiogram.dispatcher - WARNING - Sleep for 4.931460 seconds and try again... (tryings = 7, bot id = 6920243355)
+2024-04-01 18:42:41,642 - aiogram.dispatcher - ERROR - Failed to fetch updates - TelegramConflictError: Telegram server says - Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2024-04-01 18:42:41,643 - aiogram.dispatcher - WARNING - Sleep for 1.735038 seconds and try again... (tryings = 2, bot id = 6920243355)
+2024-04-01 18:42:51,702 - aiogram.dispatcher - INFO - Connection established (tryings = 8, bot id = 6920243355)
+2024-04-01 19:01:19,694 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 19:01:20,502 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 19:01:32,837 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 19:01:33,634 - aiogram.event - INFO - Update id=298474721 is handled. Duration 802 ms by bot id=6920243355
+2024-04-01 19:01:48,389 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 19:01:48,805 - aiogram.event - INFO - Update id=298474722 is handled. Duration 416 ms by bot id=6920243355
+2024-04-01 19:02:05,433 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 19:02:06,705 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 19:02:08,279 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 19:02:14,507 - aiogram.event - INFO - Update id=298474723 is handled. Duration 6227 ms by bot id=6920243355
+2024-04-01 19:02:51,975 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 19:02:52,762 - aiogram.event - INFO - Update id=298474724 is handled. Duration 786 ms by bot id=6920243355
+2024-04-01 19:02:59,636 - aiogram.dispatcher - INFO - Start polling
+2024-04-01 19:03:00,294 - aiogram.dispatcher - INFO - Run polling for bot @mossy_trans_bot id=6920243355 - 'Bot transliterator RU->EN'
+2024-04-01 19:03:02,766 - root - INFO - 498677834:498677834 - запустил бота
+2024-04-01 19:03:03,475 - aiogram.event - INFO - Update id=298474725 is handled. Duration 709 ms by bot id=6920243355
